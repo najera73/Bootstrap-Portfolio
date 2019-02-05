@@ -4,19 +4,34 @@
 <head>
   <meta charset="UTF-8">
   <title>About | Joseph S Najera</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <!---link rel="stylesheet" type="text/css" href="assets/css/style.css"-->
+  <!--added bootstrap and modefying style sheets (this didn't work)-->
+  <!--adding css reset to see if it helps (not sure if helped, looks worse)-->
+  <!--<link rel="stylesheet" type="bootstrap" href="assets/css/bootstrap.css"/> is this correct? Not sure why its not working, trashing the whole thing-->
+  <!--<link rel="stylesheet" type="bootstrap" href="assets/css/bootstrap-responsive.css"/>-->
+  <!--<link rel="stylesheet" type="text/css" href="assets/css/reset.css"> - using developer tools, why does it seem that reset is -->
+  <!--I think I added the wrong bootstrap link originally, downloaded files instead-->
+  <!--<link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
+    unlinked this style sheet because it gave me more problems I don't understand-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 
 <body>
 
   <header id="masthead">
     <div class="container">
-      <a href="index.html" id="logo">Joseph S Najera</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
+         
+      <!--moved nav bar above logo, was not alighing properly, need to research-->
+      <!--<nav class="navbar navbar-expand-lg navbar-light bg-light"></nav>-->
+      <!-- As a heading -->
+      <nav class="navbar navbar-light bg-light">
+          <span class="navbar-brand mb-0 h1"></span>
+            <a href="index.html" id="logo">Joseph S Najera</a>
+      
+            <a href="index.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+
+      <!--I completely do not know how to use this, and can't seem to fix it. Homwork bombed again-->      
       </nav>
     </div>
   </header>
@@ -25,7 +40,7 @@
     <section class="main-section">
       <h1>About Me</h1>
 
-      <img src="assets/images/LinkedInPic.jpeg" class="auth-image" alt="Your Name">
+      <img src="assets/img/LinkedInPic.jpeg" class="auth-image" alt="Your Name">
 
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin consectetur.</p>
 
@@ -39,7 +54,7 @@
 
   <footer>
     <div class="container">
-      Copyright &copy; 
+      Copyright © Joseph S Najera; 
     </div>
   </footer>
 </body>
